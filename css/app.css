@@ -170,3 +170,43 @@ button {
 	left:0;
 	display:none;
 }
+
+@media screen and (max-width: 680px) {
+  .deck {
+      width: 320px;
+      min-height: 340px;
+      padding: 16px;
+      border-radius: 5px;
+      box-shadow: 6px 7px 10px 0 rgba(46, 61, 73, 0.5);
+  }
+  .deck .card {
+      height: 60px;
+      width: 60px;
+      border-radius: 4px;
+      box-shadow: 2px 1px 10px 0 rgba(46, 61, 73, 0.5);
+  }
+
+  .deck .card.show {
+      font-size: 16px;
+  }
+
+  .deck .card.match {
+      font-size: 16px;
+  }
+
+  .deck .card.wrong {
+      font-size: 16px;
+  }
+
+  .score-panel {
+      width: 252px;
+      margin-bottom: 5px;
+  }
+
+  h1 {
+      font-weight: 150;
+  }
+
+  .score-panel .time{
+      margin: 0 0 0 10px;
+  }
